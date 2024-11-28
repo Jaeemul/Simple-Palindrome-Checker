@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: grey;
+}
+
+.flex-container{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#palindrome-console{
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+input{
+  padding: 10px;
+  height: 30px;
+  width: 250px;
+  border-radius: 33px;
+  border-color: violet;
+  border-top: none;
+  font-size: 1em;
+}
+
+button{
+  padding: 3px;
+  height: 30px;
+  width: 80px;
+  border-radius: 22px;
+  border-color: violet;
+  border-top: none;
+  font-size: 1em;
+  color: darkorange;
+}
+
+.text-intro{
+  font-size: 19px;
+  color: brown;
+}
+
+.text-result{
+  color: brown;
+}
+
+.text-rest{
+  font-size: 19px;
+}
+
+b {
+  font-size: 3em;
+}
